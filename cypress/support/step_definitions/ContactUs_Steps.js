@@ -1,5 +1,13 @@
 /// <reference types="cypress" />
-import { When, Then } from "@badeball/cypress-cucumber-preprocessor";
+import { When, Then, Given } from "@badeball/cypress-cucumber-preprocessor";
+import BasePage from "../page_objects/base_page";
+
+const BasePage = new BasePage();
+
+Given('I navigate to the webdriveruniversity homepage', () => {
+    BasePage.navigate("");
+
+})
 
 When('I type a first name', () => {
     cy.get('[name="first_name"]').type("Joe");
