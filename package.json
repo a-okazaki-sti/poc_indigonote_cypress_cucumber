@@ -1,7 +1,7 @@
 {
-  "name": "cypress-automation-framework",
+  "name": "poc-cypress-cucumber-e2etest",
   "version": "1.0.0",
-  "description": "Cypress Cucumber Automation Framework",
+  "description": "Poc-Cypress-cucumber-e2etest",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,7 @@
   "author": "a-okazaki-sti",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "12.17.1",
     "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "ts-loader": "^9.4.4"
