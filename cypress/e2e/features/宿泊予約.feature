@@ -1,4 +1,7 @@
-Feature: HOTEL PLANISPHERE - ホーム Page
+Feature: HOTEL PLANISPHERE - 宿泊予約をする
+
+    Background: HOTEL PLANISPHERE - ホームページを訪れる
+        Given HOTEL PLANISPHEREのホームページを訪れる
 
     Scenario Outline: ホームページから 宿泊予約ページへ遷移して予約を行う
         Given 宿泊予約サイトのホーム画面へアクセスする
