@@ -1,4 +1,6 @@
-class ホームPage {
+const Page = require("./Page");
+
+class ホームPage extends Page {
     elements = {
         宿泊予約Tab: () => cy.contains("宿泊予約"),
         会員登録Tab: () => cy.contains("会員登録"),
